@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="user">
+        <img src="pic 2.jfif" alt="its a profile photo">
+        <h3 class="name">Rojin I.D</h3>
+        <p class="post">Aeronautical Engineer</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+
+        </ul>
+
+    </nav>
+   </header>
+   <div id="menu" class="fa fa-bars"></div>
+   <section class="home" id="home">
+    <h3>HI THERE!</h3>
+    <h1>I'M <span>ROJIN I.D</span></h1>
+    <p>student of brocamp.i am an aeronatical engineering graduate and currently undergoing training in full stack development</p>
+    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
+   </section>
+   <section class="about" id="about">
+    <h1 class="heading"><span>About</span>Me</h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>Name:</span>Rojin I.D</h3>
+            <h3><span>Age:</span>22</h3>
+            <h3><span>Post:</span>Aeronautical Engineer</h3>
+            <h3><span>Language:</span>English</h3>
+            <a href="https://drive.google.com/file/d/1VXsy9y4ht4oFrfWlqQ_34TahPSQgvjPs/view?usp=share_link"><button class="btn">Download CV<i class="fas fa-download"></i>
+
+            </button>
+        </a>
+        </div>
+        <div class="counter">
+            <div class="box">
+                <span>1</span>
+                <h3>Month of experience</h3>
+            </div>
+            <div class="box">
+                <span>5+</span>
+                <h3>Projects Completed</h3>
+            </div>
+            <div class="box">
+                <span>3+</span>
+                <h3>Certificates</h3>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="education" id="education">
+    <h1 class="heading">My
+        <span>Education</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2015</span>
+            <h3>SSLC</h3>
+            <p>I have completed my schooling from Triveni High school Virajpet with 80 percentage</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>Pre-University Course</h3>
+            <p>I completed my pre university course in physics,chemistry,maths and computer science with 84% from st.annes pu college virajpet,kodagu </p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>B,tech Aeronautical Engineering</h3>
+            <p>Since i had keen interest in aero vehicles i pursuied my course in aeronautical engineering from shree devi institute of technology in manglore karnataka with overall cgpa of 8.12</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>Intern at Brahmastra Aerospace Systems</h3>
+            <p>As a part of our final year project i did my internship on space launch vehilce design from brahmastra aerospace systems</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023</span>
+            <h3>Student at Brocamp</h3>
+            <p>Currently i am undergoing training in full stack development from brocamp</p>
+            
+        </div>
+       
+    </div>
+   </section>
+   <section class="portfolio" id="portfolio">
+    <h1 class="heading">My
+        <span>Portfolio</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="rojin.jpeg" alt="its a profile pic">
+        </div>
+        <div class="box">
+            <img src="vision.jpeg" alt="portfolio image">
+        </div>
+        <div class="box">
+            <img src="rojin 2.jpeg" alt="portfolio image">
+        </div>
+        <div class="box">
+            <img src="rojin3.jpeg" alt="portfolio image">
+        </div>
+        <div class="box">
+            <img src="rojin4.jpeg" alt="portfolio image">
+        </div>
+        <div class="box">
+            <img src="rojin 6.jpeg" alt="portfolio image">
+        </div>
+    </div>
+   </section>
+   <section class="contact" id="contact">
+    <h1 class="heading">
+        <span>contact</span>
+    </h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+            <h3><i class="fas fa-envelope"></i>rojinid99@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i>8971582431</h3>
+            <h3><i class="fas fa-map-marker-alt"></i>Kodagu,Karntataka,571218</h3>
+            </div>
+        </div>
+        <form id="submit-form" action="" >
+            <input type="text" placeholder="Name" class="box" required autocomplete="off" name="name" id="name" >
+            
+            <input type="email" placeholder="email" class="box" autocomplete="off" required name="email" id="email">
+           
+            <input type="message" placeholder="message" class="box" autocomplete="off" required name="message" id="message">
+            
+            <textarea name="address" id="" cols="30" rows="10" class="box message"></textarea autocomplete="off" name="address" required id=address>
+             
+            <button type="submit" class="btn" value="submit" onclick="return validateForm()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+    
+        </form>
+    </div>
+   </section>   
+   <div class="footer">
+        
+        <a class="bwox" href="https://instagram.com/rojin_id?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram"></i>
+    </a>
+        <a class="bwox"  href="https://wa.me/8971582431" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        
+    </a>
+    <a  class="bwox" href="https://www.linkedin.com/in/rojin-id-bb678818b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+   </div>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+   <script src="script.js"></script>
+   
+
+</body>
+</html>
